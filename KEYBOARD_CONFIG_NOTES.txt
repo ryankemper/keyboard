@@ -1,0 +1,24 @@
+# KEYBOARD CONFIG NOTES
+
+### Text Manipulation
+CTRL + ; to delete to EOL (defined in keyboard/hammerspoon/delete-words.lua)
+CTRL + u to dleete to beginning of line (defined in keyboard/hammerspoon/delete-words.lua)
+CTRL + s to delete previous word
+CTRL + d to delete next word
+CMD+CTRL+ARROW to move a line up/down
+
+
+### Meta
+CTRL+` reloads hammerspoon config
+
+
+
+### Markdown Mode
+CTRL+M enters markdown mode, and then
+
+--   b => wrap the selected text in double asterisks ("b" for "bold")
+--   c => wrap the selected text in backticks ("c" for "code")
+--   i => wrap the selected text in single asterisks ("i" for "italic")
+--   s => wrap the selected text in double tildes ("s" for "strikethrough")
+--   l => convert the currently-selected text to an inline link, using a URL
+--        from the clipboard ("l" for "link")
