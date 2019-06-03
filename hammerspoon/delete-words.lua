@@ -5,8 +5,8 @@ local isInTerminal = function()
   return app == 'iTerm2' or app == 'Terminal'
 end
 
--- Use ctrl + w to delete previous word
-hs.hotkey.bind({'ctrl'}, 'w', function()
+-- Use ctrl + s to delete previous word
+hs.hotkey.bind({'ctrl'}, 's', function()
   if isInTerminal() then
     keyUpDown({'ctrl'}, 'w')
   else
